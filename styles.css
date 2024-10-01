@@ -16,7 +16,7 @@ header {
     padding: 20px 0;
     text-align: center;
     background-image: url('/images/sui.jpg'); /* Replace with actual Rakki-themed background */
-    background-size: cover;
+    background-size: auto;
 }
 
 header h1 {
@@ -65,7 +65,7 @@ header p {
 
 .feature-card h3 {
     font-size: 1.5rem;
-    color: #1a73e8; /* SUI blue for headings */
+    color: #97adca; /* SUI blue for headings */
 }
 
 .feature-card p {
@@ -74,10 +74,12 @@ header p {
 }
 
 .cta {
-    background: #2e8b57; /* Dark green to complement the overall scheme */
+    background-image: url('/images/sui.jpg'); /* Replace with actual Rakki-themed background */
     color: #fff;
     padding: 40px 0;
     text-align: center;
+    background-size: contain;
+    opacity: 0.8; /* Adjust the value as needed */
 }
 
 .cta h2 {
